@@ -5,7 +5,8 @@
 
 Codes for parsing reports and lab info, such as nanodrop report, and match it with your sample metadata.
 
->Usage: [input1]    Nanodrop report file (can be excel *.xlsx), preferable with a NOTE info column.
+>Usage: 
+>       [input1]    Nanodrop report file (can be excel *.xlsx), preferable with a NOTE info column.
 >
 >       [input2]    Sample table for information(at least include Columns such as ID to use as the key). Metadata.
 >       
