@@ -13,3 +13,9 @@ Usage:
        
 [output]    Seperate tables summarized in the way you required, such as group by Species, Stage, and Sex showen in this example.
 ```
+
+
+
+### Make_BGI_sample_Table.R
+
+Codes for parsing sample reports and your meta file info.
