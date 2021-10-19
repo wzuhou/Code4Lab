@@ -18,7 +18,7 @@ Usage:
 
 ### Make_BGI_sample_Table.R
 
-Codes for parsing sample reports and your meta file info.
+Codes for parsing nanodrop report to make sample table and your meta file info.
 
 Usage: 
 ```
