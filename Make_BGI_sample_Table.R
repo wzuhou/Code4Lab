@@ -4,17 +4,17 @@
 library(xlsx)
 library(readxl)
 library(dplyr)}
-setwd("E:/课件/ROSLIN/Sampleing/BGI/")
+setwd("E:/ROSLIN/Sampleing/BGI/")
 #setwd('E:/ROSLIN/Sampleing/20210907_test_nanodrop/Nanodrop_RNA_quality_202109')
 
 ### 1. read in info and merg
 ### sample info
 
-SAmple <- read_excel("E:/课件/ROSLIN/Sampleing/20210907_test_nanodrop/Nanodrop_RNA_quality_202109/SampleTable_info.xlsx")
+SAmple <- read_excel("E:/ROSLIN/Sampleing/20210907_test_nanodrop/Nanodrop_RNA_quality_202109/SampleTable_info.xlsx")
 head(SAmple)
 
 ### directory to nanodrop input
-excel_wd="E:/课件/ROSLIN/Sampleing/20210907_test_nanodrop/Nanodrop_RNA_quality_202109/"
+excel_wd="E:/ROSLIN/Sampleing/20210907_test_nanodrop/Nanodrop_RNA_quality_202109/"
 
 ### nanodrop input
 Tissue="ADREN"
