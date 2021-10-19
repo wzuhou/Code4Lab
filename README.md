@@ -19,3 +19,15 @@ Usage:
 ### Make_BGI_sample_Table.R
 
 Codes for parsing sample reports and your meta file info.
+
+Usage: 
+```
+[input]    Nanodrop report file (can be excel \*.xlsx), preferable with a NOTE info column.
+       
+[input2]    Sample table for information(at least include Columns such as ID to use as the key). Metadata.
+       
+[output1]    Tissue_myfile_meta.xlsx (may need some manually modification if volume has been adjusted during preparation)
+
+[output2]    Tissue_Fianl_BGI.csv BGI sample table info
+```
+
